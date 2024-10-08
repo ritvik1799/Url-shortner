@@ -21,7 +21,7 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Bean
     public CacheManager cacheManager() {
-        return new ConcurrentMapCacheManager("myCache"); // Replace "myCache" with your desired cache name
+        return new ConcurrentMapCacheManager("myCache");
     }
 }
 
